@@ -1,1 +1,82 @@
 /* your code here */
+.content {
+	background-color: #000;
+	color:#fff;
+	padding:15px;
+}
+
+.top {
+	display:flex;
+	justify-content:space-between;
+}
+
+.media-icons i {
+	margin:0 4px;
+}
+
+.media-icons .item-1 {
+	background-color:#1877F2;
+	padding:10px;
+	border-radius:50%;
+}
+
+.media-icons .item-2 {
+	background-color:#1DA1F2;
+	padding:10px;
+	border-radius:50%;
+}
+
+.media-icons .item-3 {
+	background-color:#d62976;
+	padding:10px;
+	border-radius:50%;
+}
+
+.media-icons .item-4 {
+	background-color:#0077B5;
+	padding:10px;
+	border-radius:50%;
+}
+
+.media-icons .item-5 {
+	background-color:#ff0000;
+	padding:10px;
+	border-radius:50%;
+}
+
+
+
+.logo-details {
+	font-size:24px;
+	padding-left:16px;
+}
+
+.link-boxes {
+	display:flex;
+	justify-content:space-between;
+	margin-top:24px;
+	padding-left:16px;
+}
+
+.link-boxes h2 {
+	text-decoration:underline;
+	color:lightgray;
+	font-size:16px;
+}
+
+.link-boxes li {
+	list-style-type:none;
+	margin-left:-36px;
+	color:lightgray;
+	padding:3px;
+}
+
+
+
+.bottom-details {
+	display:flex;
+	justify-content:space-between;
+	background-color:rgba(5,5,5,0.75);
+	color:lightgray;
+	padding:0 16px;
+}
